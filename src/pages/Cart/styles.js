@@ -6,6 +6,26 @@ export const Container = styled.div`
   background: #fff;
   border-radius: 4px;
 
+  > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    svg {
+      margin-bottom: 12px;
+    }
+
+    h2 {
+      color: #999;
+      text-align: center;
+    }
+
+    p {
+      display: block;
+    }
+  }
+
   footer {
     display: flex;
     justify-content: space-between;
